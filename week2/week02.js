@@ -1,7 +1,7 @@
 var fs = require('fs');
 var cheerio = require('cheerio');
 
-var content = fs.readFileSync('../week2/m09.txt');
+var content = fs.readFileSync('../week1/m09.txt');
 var $ = cheerio.load(content);
 var meetingAddress=[];
 
