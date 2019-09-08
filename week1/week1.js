@@ -15,16 +15,16 @@ var urls =[
  ];
  
 var fns = [
-'/home/ec2-user/environment/m01.txt',
-'/home/ec2-user/environment/m02.txt',
-'/home/ec2-user/environment/m03.txt',
-'/home/ec2-user/environment/m04.txt',
-'/home/ec2-user/environment/m05.txt',
-'/home/ec2-user/environment/m06.txt',
-'/home/ec2-user/environment/m07.txt',
-'/home/ec2-user/environment/m08.txt',
-'/home/ec2-user/environment/m09.txt',
-'/home/ec2-user/environment/m10.txt' 
+'/home/ec2-user/environment/week1/m01.txt',
+'/home/ec2-user/environment/week1/m02.txt',
+'/home/ec2-user/environment/week1/m03.txt',
+'/home/ec2-user/environment/week1/m04.txt',
+'/home/ec2-user/environment/week1/m05.txt',
+'/home/ec2-user/environment/week1/m06.txt',
+'/home/ec2-user/environment/week1/m07.txt',
+'/home/ec2-user/environment/week1/m08.txt',
+'/home/ec2-user/environment/week1/m09.txt',
+'/home/ec2-user/environment/week1/m10.txt' 
 ];
     
 
