@@ -51,6 +51,3 @@ async.eachSeries(addresses, function(value, callback) {
     console.log('Number of meetings in this zone: ');
     console.log(addresses.length);
 });
-
-
-
