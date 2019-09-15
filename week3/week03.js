@@ -17,7 +17,6 @@ var addresses = [];
 
 var i;
 for (i in afterAddresses){
-    // console.log(afterAddresses[i]['streetAddress']);
     addresses.push(afterAddresses[i]['streetAddress']);
 }
 
@@ -32,16 +31,11 @@ async.eachSeries(addresses, function(value, callback) {
         if (err) {throw err;}
         else {
             var tamuGeo = JSON.parse(body);
-            for (var i=0; i<addresses.length; i++) {
-                var d = {};
-                var d2 = {};
-                d2['lat'] =  tamuGeo['OutputGeocodes'][0]['OutputGeocode']['Latitude'];
-                d2['lng'] =  tamuGeo['OutputGeocodes'][0]['OutputGeocode']['Longitude'];
-                d['address'] = afterAddresses[i]['streetAddress'];
-                d['latLong'] = d2;
-                geoCodes.push(d);
-            }
-            // meetingsData.push(d);
+            var latLong = {}; // object container for 'address' lat' & 'lng'
+            latLong.address = tamuGeo['InputAddress']['StreetAddress'];
+            latLong.lat = tamuGeo['OutputGeocodes'][0]['OutputGeocode']['Latitude'];
+            latLong.lng = tamuGeo['OutputGeocodes'][0]['OutputGeocode']['Longitude'];
+            geoCodes.push(latLong)
         }
     });
     setTimeout(callback, 2000);
