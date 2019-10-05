@@ -83,4 +83,4 @@ fs.readFile('/home/ec2-user/environment/week1/m09.txt', 'utf8', (error, data) =>
     });
 });
 
-fs.writeFileSync('data/AA09.csv', "Location_Name,Address_Line_1,State,Zipcode,Extended_Address\n");
+fs.writeFileSync('data/AA09.csv', "Location_Title,Address_Street_Info,Address_State,Address_Zipcode,Address_Details\n");
