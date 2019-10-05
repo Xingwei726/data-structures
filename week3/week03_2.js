@@ -18,23 +18,23 @@ fs.readFile('/home/ec2-user/environment/week1/m09.txt', 'utf8', (error, data) =>
     
     $('tr tr tr').each(function(i, item) {
         if (i != 0){
-            //Extract meeting name
+            //Meeting Name
             var meetingName = $(this).children().eq(0).find('b').text();
             meetingName = meetingName.split(' - ');
             meetingName = meetingName[0].toLowerCase();
             
-            //Extract if Wheelchair access is available
+            //Wheelchair Access
             var access = false;
             if ($(this).children().eq(0).find('span').text().trim() == "Wheelchair access"){
                access = true;
             }
 
-            // Delete additional html code within the table row
+            // Delete Extra Information
             $(this).children().eq(0).find('div').remove().html();
             $(this).children().eq(0).find('b').remove().html();
             $(this).children().eq(0).find('span').remove().html();
             
-            // Extract the location details. Split at a new line, deleting white space and blank lines
+            // Information Reorganizing
             var location = $(this).children().eq(0).text().split(/\n|,|\(|\)|-/).map(item => item.trim()).filter(Boolean);
             
             // Replace E in address with East
@@ -43,7 +43,7 @@ fs.readFile('/home/ec2-user/environment/week1/m09.txt', 'utf8', (error, data) =>
             
             //Create an address object
             var addressObj = {
-                line_1 : location[1],
+                street_info : location[1],
                 city : "New York",
                 state : "NY",
                 zip : location[location.length - 1].replace(/\D+/g, ''),
@@ -93,7 +93,7 @@ function getGeocode(name, address){
     if (!(address.hasOwnProperty('geocode'))){
         //Set up the API request
         var apiRequest = 'https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx?';
-        apiRequest += 'streetAddress=' + address.line_1.split(' ').join('%20');
+        apiRequest += 'streetAddress=' + address.street_info.split(' ').join('%20');
         apiRequest += '&city=New%20York&state=NY&apikey=' + apiKey;
         apiRequest += '&format=json&version=4.01';
         
