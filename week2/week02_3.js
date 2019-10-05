@@ -40,7 +40,7 @@ fs.readFile('/home/ec2-user/environment/week1/m09.txt', 'utf8', (error, data) =>
             fs.appendFileSync('data/AA09.csv', saveString + '\n');
             
             var addressObj = {
-                line_1 : location[1],
+                street_info : location[1],
                 city : "New York",
                 state : "NY",
                 zip : location[location.length - 1].replace(/\D+/g, ''),
