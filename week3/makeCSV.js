@@ -19,7 +19,7 @@ function makeCSV(jsonFile){
                         meetings[locationName]['address']['city'] + ',' +
                         meetings[locationName]['address']['state'] + ',' +
                         meetings[locationName]['address']['zip'] + ',' + '"' +
-                        meetings[locationName]['address']['friendly'] + '"' + ',' +
+                        meetings[locationName]['address']['details'] + '"' + ',' +
                         meetings[locationName]['address']['geocode']['latitude'] + ',' +
                         meetings[locationName]['address']['geocode']['longitude'] + ',' +
                         meetingName + ',' +
