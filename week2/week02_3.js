@@ -8,14 +8,14 @@ fs.readFile('/home/ec2-user/environment/week1/m09.txt', 'utf8', (error, data) =>
     if (error) throw error;
     const $ = cheerio.load(data);
     
-    // Traverse the DOM model produced by Cheerio down three table rows deep
     $('tr tr tr').each(function(i, item) {
         if (i != 0){
-            //Extract meeting name
+            //Meeting Name
             var meetingName = $(this).children().eq(0).find('b').text();
             meetingName = meetingName.split(' - ');
             meetingName = meetingName[0].toLowerCase();
             
+            //Wheelchair Access
             var access = false;
             if ($(this).children().eq(0).find('span').text().trim() == "Wheelchair access"){
                access = true;
@@ -26,7 +26,7 @@ fs.readFile('/home/ec2-user/environment/week1/m09.txt', 'utf8', (error, data) =>
             $(this).children().eq(0).find('b').remove().html();
             $(this).children().eq(0).find('span').remove().html();
             
-            // Extract the location details. Split at a new line, deleting white space and blank lines
+            // Location Detalils
             var location = $(this).children().eq(0).text().split(/\n|,|\(|\)|-/).map(item => item.trim()).filter(Boolean);
             
             // Replace E in address with East
@@ -44,7 +44,7 @@ fs.readFile('/home/ec2-user/environment/week1/m09.txt', 'utf8', (error, data) =>
                 city : "New York",
                 state : "NY",
                 zip : location[location.length - 1].replace(/\D+/g, ''),
-                friendly: location.join(','),
+                details: location.join(','),
                 wheelchair_access: access,
                 meetings : {
                     [meetingName] : []
