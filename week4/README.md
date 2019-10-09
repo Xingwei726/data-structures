@@ -55,4 +55,4 @@ Use the starter code to query all of the contents in my database right now to ch
 
 ## Conclusions:
 
-As I was planning the database model, I was wandering if I should put time information into its own table or not. Reason why I did this is because then user can search time / group / location and get meeting information related with each unique key. But I'm not sure creating this extra table would or would not complex the query?
+As I was planning the database model, I wondered if I should put time information into its own table or not. Reason why I did this is because then users can search time / group / location and get meeting information related with each unique key. But I'm not sure creating this extra table would or would not complex the query?
