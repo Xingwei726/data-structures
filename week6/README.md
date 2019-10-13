@@ -6,7 +6,8 @@ In this weekly assignment I added more AA meeting information in my PostgreSQL d
 ## PostgreSQL
 
 **PART ONE: Create PostgreSQL Table**
-Since I want to add more [data](https://github.com/Xingwei726/data-structures/blob/master/week3/data/AA09.json) that I've parsed from zone 9, I recreate a PostgreSQL Table `aalocations` with following information, for more information please visit here.
+
+Since I added more [data](https://github.com/Xingwei726/data-structures/blob/master/week3/data/AA09.csv) that I've parsed from zone 9, I recreated a PostgreSQL Table `aalocations` with following code, for more information please visit [here](https://github.com/Xingwei726/data-structures/blob/master/week4/week04_createTable.js).
 ```javascript
 var thisQuery = `CREATE TABLE aalocations (
                                           locationTitle varchar(200),
@@ -24,13 +25,15 @@ var thisQuery = `CREATE TABLE aalocations (
                                           type VARCHAR(10));`;
 ```
 **PART TWO: Insert Values**
+
 Using the [`pg`](https://node-postgres.com/) in Node to insert my AA data in the database. Modified the following starter code and using the following code to insert data into my PostgreSQL table :
 ```javascript
 var thisQuery = "INSERT INTO aalocations VALUES (E'" + value.locationTitle + "','" + value.streetInfo + "', '" + value.city + "', '" + value.state + "', '"+ value.zip + "', '" + value.details + "', '" + value.latitude + "', '"+value.longitude + "', '" + value.meetingName + "', '" + value.day + "', '" + value.startTime + "', '" + value.endTime + "', '" + value.type + "');";
 ```
-For more information please visit here.
+For more information please visit [here](https://github.com/Xingwei726/data-structures/blob/master/week4/week04_insertData.js).
 
 **PART THREE: Check Results**
+
 In order to check results, I made a query about all meetings in zone 9 with the meeting type of OD.
 ```Javascript
 var thisQuery = "SELECT locationTitle, streetInfo, city, state, zip, latitude, longitude, meetingName, day, startTime, endTime, type FROM aalocations WHERE type ='OD';";
@@ -40,10 +43,12 @@ Result of the query:
 
 ## DynamoDB
 **PART ONE: Create Table & Insert Data**
+
 I'm using the same table I've created in [week5](https://github.com/Xingwei726/data-structures/blob/master/week5/week05.js), but populate it with more blog entries in order to test the query.
 ![](DynamoDB.jpg)
 
 **Query Test 1:**
+
 Retrieve all blog entries that's under the **mood** 'calm', using following code: ( expect return result number is: 3)
 ```javascript
 var params = {
@@ -61,6 +66,7 @@ Result of the query:
 ![](NoSQL1.jpg)
 
 **Query Test 2:**
+
 Retrieve all blog entries that's under the **mood** 'calm' and on **date** 'Aug 16 2019' using following code: ( expect return result number is: 1)
 ```javascript
 var params = {
