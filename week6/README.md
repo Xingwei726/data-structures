@@ -35,7 +35,8 @@ For more information please visit [here](https://github.com/Xingwei726/data-stru
 **PART THREE: Check Results**
 
 In order to check results, I made a query about all meetings in zone 9 with the meeting type of OD.
-*( expect no. of return result is: 5)*
+
+*expect no. of return result is: 5*
 
 ```Javascript
 var thisQuery = "SELECT locationTitle, streetInfo, city, state, zip, latitude, longitude, meetingName, day, startTime, endTime, type FROM aalocations WHERE type ='OD';";
@@ -49,10 +50,12 @@ Result of the query:
 I'm using the same table I've created in [week5](https://github.com/Xingwei726/data-structures/blob/master/week5/week05.js), but populate it with more blog entries in order to test the query.
 ![](DynamoDB.jpg)
 
+**PART TWO: Qurey Tests**
 **Query Test 1:**
 
 Retrieve all blog entries that's under the **mood** 'calm', using following code: 
-*( expect no. of return result is: 3)*
+
+*expect no. of return result is: 3*
 ```javascript
 var params = {
     TableName : "processblog",
@@ -71,7 +74,7 @@ Result of the query:
 **Query Test 2:**
 
 Retrieve all blog entries that's under the **mood** 'calm' and on **date** 'Aug 16 2019' using following code: 
-*( expect no. of return result is: 1)*
+*expect no. of return result is: 1*
 ```javascript
 var params = {
     TableName : "processblog",
