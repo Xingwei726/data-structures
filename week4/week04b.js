@@ -12,13 +12,15 @@ db_credentials.database = 'aa';
 db_credentials.password = process.env.AWSRDS_PW;
 db_credentials.port = 5432;
 
-var rawAddresses = fs.readFileSync('../week4/first.json');
+var rawAddresses = fs.readFileSync('../week4/data/AAAll.json');
 var addressesForDb = JSON.parse(rawAddresses);
 
 async.eachSeries(addressesForDb, function(value, callback) {
     const client = new Client(db_credentials);
     client.connect();
-    var thisQuery = "INSERT INTO aalocations VALUES (E'" + value.address + "', " + value.lat + ", " + value.lng + ");";
+    // var thisQuery = "INSERT INTO aalocations VALUES (E'" + value.address + "', " + value.lat + ", " + value.lng + ");";
+    var thisQuery = "INSERT INTO aalocations VALUES (E'" + value.locationName + "', " + value.address.street_info + ", " + value.meetings.day + ", " + value.address.state + ", " + value.address.zip + ", " + value.address.details + ", " + value.address.coords.latitude + ", " + value.address.coords.longitude + ", " + value.address.zone + ", " + value.meetingName + ", " + value.meetingName.day + ", " + value.meetingName.start + ", " + value.meetingName.end + ", " + value.meetingName.type + ");";
+
     client.query(thisQuery, (err, res) => {
         console.log(err, res);
         client.end();

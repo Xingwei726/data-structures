@@ -21,7 +21,7 @@ fs.readFile('/home/ec2-user/environment/week1/m09.txt', 'utf8', (error, data) =>
                access = true;
             }
 
-            // Delete additional html code within the table row
+            // Delete Extra Information
             $(this).children().eq(0).find('div').remove().html();
             $(this).children().eq(0).find('b').remove().html();
             $(this).children().eq(0).find('span').remove().html();
@@ -33,7 +33,7 @@ fs.readFile('/home/ec2-user/environment/week1/m09.txt', 'utf8', (error, data) =>
             location[1] = location[1].replace(" E ", " East ");
             location[1] = location[1].replace(" E. ", " East ");
 
-            // Combine variables togther in a comma deliminated string
+            // Information Reorganizing
             var saveString = location[0] + ',' + location[1] + ',' + 'NY,' + location[location.length - 1].replace(/\D+/g, '') + ',' + "\"" + location.join(',') + "\"";
             
             // Save CSV into text file
@@ -83,4 +83,4 @@ fs.readFile('/home/ec2-user/environment/week1/m09.txt', 'utf8', (error, data) =>
     });
 });
 
-fs.writeFileSync('data/AA09.csv', "Location_Title,Address_Street_Info,Address_State,Address_Zipcode,Address_Details\n");
+fs.writeFileSync('data/AA09.csv', "Location_Title,Address_StreetInfo,Address_State,Address_Zipcode,Address_Details\n");

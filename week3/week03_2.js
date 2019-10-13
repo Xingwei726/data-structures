@@ -84,6 +84,7 @@ fs.readFile('/home/ec2-user/environment/week1/m09.txt', 'utf8', (error, data) =>
             
             //Call the geocode function
             getGeocode(location[0],addressObj);
+            
         }
     });
 });
@@ -110,6 +111,7 @@ function getGeocode(name, address){
                     latitude : lat,
                     longitude : lon
                 };
+                
                 
                 //Save the meetings object to file
                 fs.writeFileSync('data/AA09.json', JSON.stringify(meetings));

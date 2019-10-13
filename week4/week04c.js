@@ -15,7 +15,7 @@ db_credentials.port = 5432;
 const client = new Client(db_credentials);
 client.connect();
 
-// Sample SQL statement to query the entire contents of a table: 
+// // Sample SQL statement to query the entire contents of a table: 
 var thisQuery = "SELECT * FROM aalocations;";
 
 client.query(thisQuery, (err, res) => {
