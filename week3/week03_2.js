@@ -1,123 +1,116 @@
-// dependencies
+// INSTALL DEPENDENCIES
 var request = require('request');
-// var async = require('async'); 
 var fs = require('fs');
 const dotenv = require('dotenv');
 var cheerio = require('cheerio');
 
-// TAMU api key
+// TAMU API KEY
 dotenv.config();
 const apiKey = process.env.TAMU_KEY;
 
 var meetings = {};
 
-// load the m09.txt file into into a cheerio object
+// LOAD FILE TO CHEERIO
 fs.readFile('/home/ec2-user/environment/week1/m09.txt', 'utf8', (error, data) => {
     if (error) throw error;
     const $ = cheerio.load(data);
-    
-    $('tr tr tr').each(function(i, item) {
-        if (i != 0){
-            //Meeting Name
-            var meetingName = $(this).children().eq(0).find('b').text();
-            meetingName = meetingName.split(' - ');
-            meetingName = meetingName[0].toLowerCase();
-            
-            //Wheelchair Access
-            var access = false;
-            if ($(this).children().eq(0).find('span').text().trim() == "Wheelchair access"){
-               access = true;
+
+    $('tr tr tr').each(function (i, elem) {
+        if (i !== 0) {
+
+            // LOCATION DETAILS
+            var location = $(elem).find('td').eq(0).text().split(/\n|,|\(|\)|-/).map(item => item.trim()).filter(Boolean);
+
+            // LOCATION NAMES
+            var locationName = location[0];
+
+            // if($(elem).find('h4').attr("style")==="margin:0;padding:0;"){
+            //   var locationName=$(elem).text().split('\n').map(item => item.trim()).filter(Boolean);
+            // }
+
+            // MEETING NAMES
+            var meetingName = $(elem).find('td').eq(0).find('b').text().split(' - ')[0].toUpperCase();
+
+            // // ZIPCODE
+            var zipcode = $(elem).html().split('<br>')[3].trim().slice(-5);
+
+            // // WHEELCHAIR ACCESS INFORMATION
+            var wheelchair;
+            if ($(elem).html().includes('Wheelchair access')) {
+                wheelchair = true;
+            } else {
+                wheelchair = false;
             }
 
-            // Delete Extra Information
-            $(this).children().eq(0).find('div').remove().html();
-            $(this).children().eq(0).find('b').remove().html();
-            $(this).children().eq(0).find('span').remove().html();
-            
-            // Information Reorganizing
-            var location = $(this).children().eq(0).text().split(/\n|,|\(|\)|-/).map(item => item.trim()).filter(Boolean);
-            
-            // Replace E in address with East
-            location[1] = location[1].replace(" E ", " East ");
-            location[1] = location[1].replace(" E. ", " East ");
-            
-            //Create an address object
-            var addressObj = {
-                street_info : location[1],
-                city : "New York",
-                state : "NY",
-                zip : location[location.length - 1].replace(/\D+/g, ''),
-                details: location.join(','),
-                wheelchair_access: access,
-            };
+            // // REMOVE REDUNDANT
+            $(elem).find('div').eq(0).remove();
+            $(elem).find('b').eq(0).remove();
+            $(elem).find('span').eq(0).remove();
 
-            //If the meetings object does not contain this address, add it.
-            if (!(meetings.hasOwnProperty(location[0]))){
-                meetings[location[0]] = {
-                    address : addressObj,
-                    'meetings':{}
+
+            if (!(meetings.hasOwnProperty(locationName))) {
+                meetings[locationName] = {
+                    locationTitle: locationName,
+                    streetInfo: location[3],
+                    city: "New York",
+                    state: "NY",
+                    zip: zipcode,
+                    details: location[3] + ' ' + location[4] + ' ' + location[5],
+                    wheelchair: wheelchair,
+                    'meetings': {}
                 };
             }
-            
-            //Extract the meeting times into an array
-            var meetingTimes = $(this).children().eq(1).text().split('\n').map(item => item.trim()).filter(Boolean);
-            
-            //For each meeting time, itterate through and extract the details into an object.
-            for (let x = 0; x < meetingTimes.length; x++) { 
-            
-                console.log(meetingTimes[x]);
-                var times = meetingTimes[x].split(' ');
+
+
+            // EXTRACT MEETING TIMES
+            var meetingTimes = $(elem).find('td').eq(1).text().split('\n').map(item => item.trim()).filter(Boolean);
+
+            for (let t = 0; t < meetingTimes.length; t++) {
+                console.log(meetingTimes[t]);
+                var times = meetingTimes[t].split(' ');
                 var timesObj = {
-                    day : times[0],
-                    start : times[3]+' '+times[4],
-                    end : times[6]+' '+times[7],
-                    type : times[10]
+                    day: times[0],
+                    start: times[3] + ' ' + times[4],
+                    end: times[6] + ' ' + times[7],
+                    type: times[10]
                 };
-                
-                //If the meeting has already been created, append the meeting times, else add the meeting and times.
-                if (meetings[location[0]]['meetings'].hasOwnProperty(meetingName)) {
-                    meetings[location[0]]['meetings'][meetingName].push(timesObj);
+
+                if (meetings[locationName]['meetings'].hasOwnProperty(meetingName)) {
+                    meetings[locationName]['meetings'][meetingName].push(timesObj);
                 } else {
-                    meetings[location[0]]['meetings'][meetingName] = [timesObj];
+                    meetings[locationName]['meetings'][meetingName] = [timesObj];
                 }
             }
-            
-            //Call the geocode function
-            getGeocode(location[0],addressObj);
-            
+
+            // CALL THE GEOCODE FUNCTION
+            getGeocode(locationName, meetings);
         }
     });
 });
 
-function getGeocode(name, address){
-    //Check to see if the address already has the geocode before continue to save unneccesary API calls. 
-    if (!(address.hasOwnProperty('geocode'))){
-        //Set up the API request
+function getGeocode(name, address) {
         var apiRequest = 'https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx?';
-        apiRequest += 'streetAddress=' + address.street_info.split(' ').join('%20');
+        apiRequest += 'streetAddress=' + address.streetInfo.split(' ').join('%20');
         apiRequest += '&city=New%20York&state=NY&apikey=' + apiKey;
         apiRequest += '&format=json&version=4.01';
-        
-        request(apiRequest, function(err, resp, body) {
-            if (err) {throw err;}
+
+        request(apiRequest, function (err, resp, body) {
+            if (err) { throw err; }
             else {
+                // var latLong = {}; // object container for 'address' lat' & 'lng'
+                // latLong.address = tamuGeo['InputAddress']['StreetAddress'];
                 var tamuGeo = JSON.parse(body);
-                //Extract the latitude and longitude
                 var lat = tamuGeo['OutputGeocodes'][0]['OutputGeocode']['Latitude'];
                 var lon = tamuGeo['OutputGeocodes'][0]['OutputGeocode']['Longitude'];
-                
-                //Save a geocode object to the meetings object
-                meetings[name]['address']['geocode'] = {
-                    latitude : lat,
-                    longitude : lon
+                // geoCodes.push(latLong)
+
+                meetings[name]['geocode'] = {
+                    latitude: lat,
+                    longitude: lon
                 };
-                
-                
+
                 //Save the meetings object to file
                 fs.writeFileSync('data/AA09.json', JSON.stringify(meetings));
             }
         });
-    } else {
-        fs.writeFileSync('data/AA09.json', JSON.stringify(meetings));
-    }
 }
