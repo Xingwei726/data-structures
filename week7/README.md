@@ -73,3 +73,6 @@ Second method I borrowed Neil's idea to create a CSV file, the tabular format is
 
  - Because I spend a great amount of time trying to figure out how to parse the data, I didn't really observe the results yet,  there are some group titles I found "suspicious", so I'm going to compare my data with each zone's txt file to see if I did anything wrong.
  - I'm still trying to figure out the best way to insert the data into my SQL data base
+
+## Followup:
+ - After the office hour with Ryan, he has pointed out the problem of my original data structure and suggested me to just save each zone's meeting infomration in a individual file, so I rewrote everything (in this folder file name which starts with 'week7'are new files) and it worked!

@@ -15,17 +15,17 @@ const db_credentials = new Object({
 const client = new Client(db_credentials);
 client.connect();
 
-// var thisQuery = `CREATE TABLE aalocations (
-//                                           locationName varchar(200),
-//                                           streetInfo varchar(200),
-//                                           city varchar(25),
-//                                           state varchar(25),
-//                                           zip varchar(25),
-//                                           details varchar(200),
-//                                           wheelchair_access boolean,
-//                                           zone varchar(25),
-//                                           latitude double precision,
-//                                           longitude double precision);`;
+var thisQuery = `CREATE TABLE aalocations (
+                                          locationTitle varchar(200),
+                                          streetInfo varchar(200),
+                                          city varchar(25),
+                                          state varchar(25),
+                                          zip varchar(25),
+                                          details varchar(200),
+                                          wheelchair BOOL,
+                                          zone smallint,
+                                          latitude double precision,
+                                          longitude double precision);`;
                                           
 // var thisQuery = `CREATE TABLE aalocations (
 //                                           locationID serial primary key,
@@ -53,7 +53,7 @@ client.connect();
 //                                           Meeting_Type varchar(25));`;
 
 // Sample SQL statement to delete a table
-var thisQuery = "DROP TABLE aalocations;";
+// var thisQuery = "DROP TABLE aalocations;";
 // var thisQuery = "DROP TABLE aagroups;";
 // var thisQuery = "DROP TABLE aameetings;"; 
 
