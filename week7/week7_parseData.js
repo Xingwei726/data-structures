@@ -11,7 +11,7 @@ dotenv.config();
 
 var meetingList = [];
 
-let html = fs.readFileSync('/home/ec2-user/environment/week2/m01.txt');
+let html = fs.readFileSync('/home/ec2-user/environment/week1/m10.txt');
 let $ = cheerio.load(html);
 
 $('tr tr tr').each(function (i, elem) {
@@ -62,7 +62,7 @@ $('tr tr tr').each(function (i, elem) {
             zip: zipcode,
             details: location[3] + ' ' + location[4] + ' ' + location[5],
             wheelchair: wheelchair,
-            zone:"2"
+            zone:"10"
         };
 
 
@@ -92,4 +92,4 @@ $('tr tr tr').each(function (i, elem) {
 
 
 let write = JSON.stringify(meetingList);
-fs.writeFileSync('data/AA02.json', write);
+fs.writeFileSync('data/AA10.json', write);
