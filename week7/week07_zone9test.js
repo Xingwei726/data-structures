@@ -94,6 +94,10 @@ function getGeocode(name, address) {
         apiRequest += '&city=New%20York&state=NY&apikey=' + apiKey;
         apiRequest += '&format=json&version=4.01';
 
+
+
+
+
         request(apiRequest, function (err, resp, body) {
             if (err) { throw err; }
             else {

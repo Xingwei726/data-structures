@@ -33,7 +33,7 @@ var location = $(elem).find('td').eq(0).text().split(/\n|,|\(|\)|-/).map(item =>
 var locationName = location[0];
 ``` 
 
-Same with zipcode, it's nested inside the first `<td>` tags, then I used `.split('<br>')` to break the string whenever there is a `<br>` tag, it's the fourth element so I used `[3]` to target on it.
+Same with zipcode, it's nested inside the first `<td>` tags, then I used `.split('<br>')` to break the string whenever there is a `<br>` tag, it's after 3rd `<br>` so I used `[3]` to target on it, after trim all white space, last 5 characters is zipcode.
 
 ```javascript
 // ZIPCODE

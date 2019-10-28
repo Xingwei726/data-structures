@@ -20,7 +20,8 @@ var addressesForDb = JSON.parse(rawAddresses);
 async.eachSeries(addressesForDb, function (value, callback) {
     const client = new Client(db_credentials);
     client.connect();
-    var thisQuery = "INSERT INTO aalocations (locationTitle, streetInfo, city, state, zip, details, wheelchair_access, zone, latitude, longitude) VALUES (E'" + value.locationTitle + "','" + value.streetInfo + "', '" + value.city + "', '" + value.state + "', '"+ value.zip + "', '" + value.details + "', '" + value.latitude + "', '"+value.longitude + "', '" + value.meetingName + "', '" + value.day + "', '" + value.startTime + "', '" + value.endTime + "', '" + value.type + "');";
+    // var thisQuery = "INSERT INTO aalocations (locationTitle, streetInfo, city, state, zip, details, wheelchair_access, zone, latitude, longitude) VALUES (E'" + value.locationTitle + "','" + value.streetInfo + "', '" + value.city + "', '" + value.state + "', '"+ value.zip + "', '" + value.details + "', '" + value.wheelchair_access + "', '" + value.zone + "', '" + value.latitude + "', '"+value.longitude + "');";
+    var thisQuery = "INSERT INTO aalocations (locationTitle, streetInfo, city, state, zip, details, wheelchair_access, zone, latitude, longitude) VALUES (E'" + value.meetings.locationTitle + "','" + value.meetings.address.streetInfo + "', '" + value.meetings.address.city + "', '" + value.meetings.address.state + "', '"+ value.meetings.address.zip + "', '" + value.meetings.address.details + "', '" + value.meetings.address.wheelchair_access + "', '" + value.meetings.address.zone + "', '" + value.meetings.address.latitude + "', '"+value.meetings.address.longitude + "');";
 
     client.query(thisQuery, (err, res) => {
         console.log(err, res);
