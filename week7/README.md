@@ -41,8 +41,15 @@ var zipcode = $(elem).html().split('<br>')[3].trim().slice(-5);
 ``` 
 For wheelchair access information I used
 
-
-
+```javascript
+// WHEELCHAIR ACCESS INFORMATION
+var wheelchair;
+if ($(elem).html().includes('Wheelchair access')) {
+    wheelchair = true;
+    } else {
+    wheelchair = false;
+}
+```
 
 **Step 3: Clean the Data**
 After I parsed out all data, I used `remove()` function to remove all the unnecessary white space or line break that's inside the html structure.
@@ -76,3 +83,5 @@ Second method I borrowed Neil's idea to create a CSV file, the tabular format is
 
 ## Followup:
  - After the office hour with Ryan, he has pointed out the problem of my original data structure and suggested me to just save each zone's meeting infomration in a individual file, so I rewrote everything (in this folder file name which starts with 'week7'are new files) and it worked!
+![](testquery1.png)
+![](testquery2.png)
