@@ -9,7 +9,7 @@ dotenv.config();
 const apiKey = process.env.TAMU_KEY;
 
 // geocode addresses
-var rawAddresses = fs.readFileSync('data/AA05.json');
+var rawAddresses = fs.readFileSync('data/AA10.json');
 var afterAddresses = JSON.parse(rawAddresses);
 var AAaddresses = [];
 
@@ -61,7 +61,7 @@ async.eachSeries(AAaddresses, function(value, callback) {
                 for (var i = 0; i < afterAddresses.length; i++) {
                 afterAddresses[i]["geocode"]=latLong[i];
             }
-    fs.writeFileSync('data/withGeo/AA05Geo.json', JSON.stringify(afterAddresses));
+    fs.writeFileSync('data/withGeo/AA010Geo.json', JSON.stringify(afterAddresses));
     console.log('*** *** *** *** ***');
     console.log('Number of meetings in this zone: ');
     console.log(AAaddresses.length);

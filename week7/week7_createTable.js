@@ -40,7 +40,6 @@ var thisQuery = `CREATE TABLE aalocations (
 //                                           latitude double precision,
 //                                           longitude double precision);`;                                          
                                           
-                                          
 // var thisQuery = `CREATE TABLE aagroups (groupID serial primary key,
 //                                         details varchar(200),
 //                                         groupTitle varchar(100),
