@@ -5,6 +5,7 @@
 
 ## Working Process
 **Part One: Plan & Setup**
+
 Because the dataset I will be using to design my temperature data visualization are pairs of external temperature and internal body temperature along one month timeline. The database itself doesn't have to be horizontally scalable as well as the data types can be fixed at this early stage so I chose to set up a PostgreSQL using the following javascript:
 
 ```javascript
@@ -66,11 +67,13 @@ Then I changed the default setting in Cloud9 to specify that I would like my ser
 ![](PM2.png)
 
 **Part Three: Collecting Body Temperature Data**
+
 For measuring core body temperature, I decided to use a less 'advanced' tool---a thermometer--- to help me track the data. It's an instant accurate reading thermometer which automatically save the last 35 readings and store them. It came with four modes: measure the temperature of ear, forehead, object surface and room. So I will measure my core body temperature once every hour.
 ![](thermometer.png)
 
 
 **Part Four: Check Database**
+
 Use the starter code to query all of the contents in my database to check if data pairs have been inserted successfully.
 ![](checkDatabase.png)
 

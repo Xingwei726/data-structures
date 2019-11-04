@@ -7,7 +7,7 @@ dotenv.config({path: '/home/ec2-user/environment/week7/.env'});
 const db_credentials = new Object({
    user: "huanx429",
    password: process.env.AWSRDS_PW,
-   host: "database-structures.c9iddlpctkv6.us-east-1.rds.amazonaws.com",
+   host: process.env.AWSRDS_EP,
    database: "aa",
    port: 5432,
 });
