@@ -71,6 +71,8 @@ Then I changed the default setting in Cloud9 to specify that I would like my ser
 For measuring core body temperature, I decided to use a less 'advanced' tool---a thermometer--- to help me track the data. It's an instant accurate reading thermometer which automatically save the last 35 readings and store them. It came with four modes: measure the temperature of ear, forehead, object surface and room. So I will measure my core body temperature once every hour.
 ![](thermometer.png)
 
+![](bodyTemp.png)
+
 
 **Part Four: Check Database**
 
