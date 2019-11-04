@@ -2,7 +2,7 @@
 const { Client } = require('pg');
 const dotenv = require('dotenv');
 dotenv.config({path: '/home/ec2-user/environment/week9/.env'});
-const cTable = require('console.table');
+// const cTable = require('console.table');
 
 
 

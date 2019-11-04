@@ -50,5 +50,5 @@ var getAndWriteData = function() {
 };
 
 // write a new row of sensor data every five minutes
-setInterval(getAndWriteData, 120000);
+setInterval(getAndWriteData, 300000);
 
