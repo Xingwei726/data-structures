@@ -1,0 +1,8 @@
+instance id: i-0e2df6fa52168efc1
+
+IP address: 3.85.39.185
+
+subnet id: subnet-09aa8127
+
+
+address: http://3.85.39.185:8080
