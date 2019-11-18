@@ -1,9 +1,16 @@
+# Weekly Assignment 10
+
+## Assignment Description
+This weekly assignment is to create a web server application in Node.js that will respond to various requests for JSON data for AA meetings, process blog entries, and sensor readings. The outcome does not include html elements or css styles yet, it just a representation of the queries.
+
+**Link to the app:** http://3.85.39.185:8080
+
+## Preparation
+Build on what I've worked on in class, I reorganized the file so the first step was to install express and include all the credentials that's needed for both PostgreSQL and Dynamo DB.  Then connect the client with these credentials.
+
+```Javascript
 var express = require('express'), // npm install express
     app = express();
-    
-var sensor = [];
-var aa=[];
-
 
 //1.process blog credentials    
 var AWS = require('aws-sdk');
@@ -11,7 +18,6 @@ AWS.config = new AWS.Config();
 AWS.config.region = "us-east-1";
 // app.use(require("cors")()) // allow Cross-domain requests 
 // app.use(require('body-parser').json()) 
-
 
 //2&3. sensor and aa data noSQL credentials
 const { Client } = require('pg');
@@ -26,17 +32,15 @@ const db_credentials = new Object({
   port: 5432,
 });
 
-
-
-
-
-
 const client = new Client(db_credentials);
 client.connect();
 
+```
 
+## Create Homepage
+Then I used following code to create a homepage which references to the three details pages.
 
-
+```javascript
 //0. Homepage
 app.get('/', function(req, res) {
     res.send(`<h1>Data Structure</h1>
@@ -46,9 +50,12 @@ app.get('/', function(req, res) {
                   <li><a href="/aalocation"> AA Data</a></li>
               </ul>`);    
 });
+```
 
 
-
+## Process Blog Query (Dynamo DB)
+For the process blog data I used following code to query all the process blogs under partition key  'calm'.
+```javascript
 //1. Process Blog Data Query (noSQL)
 app.get('/processblog', function(req, res) {
    
@@ -68,27 +75,22 @@ app.get('/processblog', function(req, res) {
             console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
         } else {
             console.log("Query succeeded.");
-            // data.Items.forEach(function(item) {
-            //     console.log("***** ***** ***** ***** ***** \n", item);
-            // });
-            
-            //Get the first process glog under mood 'calm'
-            // res.send(data.Items[1]);
-            
             //Get all process blog under mood 'calm'
             res.send(data);
         }
     });
 });
+```
 
 
-
+## Sensor Data Query (PostgreSQL)
+For my sensor data I used the following code to query all the temperature from my sensor table.
+```javascript
 //2. Sensor Data (SQL) Query
 app.get('/sensor', function(req, res) {
     // res.send('<h3>this is the page for my sensor data</h3>'); 
         res.send(sensor);
 });
-
 // Different SQL queries for sensor data: 
 // var thisQuery = "SELECT sensorValue, sensorTemp FROM sensorData;"; // print all values
 var thisQuery = "SELECT * FROM sensorData;"; // print all values
@@ -104,16 +106,17 @@ client.query(thisQuery, (err, res) => {
     }
 });
 
+```
 
-
+## AA Meetings Query (PostgreSQL)
+And for my AA meetings data I query all the location titles from aalocations database.
+```javascript
 //3. AA Data Query
 app.get('/aalocation', function(req, res) {
     // res.send('<h3>this is the page for my sensor data</h3>'); 
         res.send(aa);
 });
-
-//Different SQL quries for aa data
-//Get all LocationTitle from aa data base
+//Get LocationTitle from aa data base
 var aaQuery = "SELECT locationTitle FROM aalocations;";
 
 client.query(aaQuery, (err, res) => {
@@ -124,22 +127,4 @@ client.query(aaQuery, (err, res) => {
         client.end();
     }
 });
-    
-
-
-
-
-
-// app.get('/sensor', function(req, res) {
-//     res.send('<h3>this is the page for my sensor data</h3>'); 
-// });  
-    
-
-
-// serve static files in /public
-app.use(express.static('public'));
-
-// listen on port 8080
-app.listen(8080, function() {
-    console.log('Server listening...');
-});
+```
