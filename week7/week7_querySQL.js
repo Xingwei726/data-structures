@@ -7,7 +7,7 @@ dotenv.config({path: '/home/ec2-user/environment/week7/.env'});
 const db_credentials = new Object({
    user: "huanx429",
    password: process.env.AWSRDS_PW,
-   host: process.env.AWSRDS_EP,
+   host: "database-structures.c9iddlpctkv6.us-east-1.rds.amazonaws.com",
    database: "aa",
    port: 5432,
 });
@@ -16,9 +16,12 @@ const db_credentials = new Object({
 const client = new Client(db_credentials);
 client.connect();
 
-// Sample SQL statement to query the entire contents of a table: 
-// var thisQuery = "SELECT locationName, streetInfo, city, state, zip, details, wheelchair_access, zone, latitude, longitude FROM aalocations WHERE type ='OD';";
-var thisQuery = "SELECT locationTitle, streetInfo, city, state, zip, details, wheelchair, zone, latitude, longitude FROM aalocations;";
+
+
+//Query from aameetings
+// var thisQuery = "SELECT meetingName, meetingDay, TimeStart, TimeEnd, meetingType FROM aameetings;";
+var thisQuery = "SELECT * FROM aameetings;"
+
 
 client.query(thisQuery, (err, res) => {
     if (err) {throw err}

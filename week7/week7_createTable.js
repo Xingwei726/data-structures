@@ -15,7 +15,32 @@ const db_credentials = new Object({
 const client = new Client(db_credentials);
 client.connect();
 
-var thisQuery = `CREATE TABLE aalocations (
+// var thisQuery = `CREATE TABLE aalocations (
+//                                           locationID serial primary key,
+//                                           locationTitle varchar(200),
+//                                           streetInfo varchar(200),
+//                                           city varchar(25),
+//                                           state varchar(25),
+//                                           zip varchar(25),
+//                                           details varchar(200),
+//                                           wheelchair BOOL,
+//                                           zone smallint,
+//                                           latitude double precision,
+//                                           longitude double precision);`;
+            
+                                      
+// var thisQuery = `CREATE TABLE aameetings (
+//                                           meetingID serial primary key,
+//                                           locationID int references aalocations(locationID),
+//                                           meetingName varchar(200),
+//                                           meetingDay varchar(25),
+//                                           TimeStart varchar(25),
+//                                           TimeEnd varchar(25),
+//                                           meetingType varchar(25));`; 
+
+//This table have everything                                            
+var thisQuery = `CREATE TABLE aameetings (
+                                          locationID serial primary key,
                                           locationTitle varchar(200),
                                           streetInfo varchar(200),
                                           city varchar(25),
@@ -25,31 +50,21 @@ var thisQuery = `CREATE TABLE aalocations (
                                           wheelchair BOOL,
                                           zone smallint,
                                           latitude double precision,
-                                          longitude double precision);`;
+                                          longitude double precision,
+                                          meetingName varchar(200),
+                                          meetingDay varchar(25),
+                                          TimeStart varchar(25),
+                                          TimeEnd varchar(25),
+                                          meetingType varchar(25));`;                                           
                                           
-// var thisQuery = `CREATE TABLE aalocations (
-//                                           locationID serial primary key,
-//                                           locationName varchar(200),
-//                                           streetInfo varchar(200),
-//                                           city varchar(25),
-//                                           state varchar(25),
-//                                           zip varchar(25),
-//                                           details varchar(200),
-//                                           wheelchair_access boolean,
-//                                           zone varchar(25),
-//                                           latitude double precision,
-//                                           longitude double precision);`;                                          
-                                          
-// var thisQuery = `CREATE TABLE aagroups (groupID serial primary key,
-//                                         details varchar(200),
-//                                         groupTitle varchar(100),
-//                                         locationID int references locations(LocationID));`;
+
 // var thisQuery = `CREATE TABLE aameetings (meetingsID serial primary key,
-//                                           groupID int references groups(GroupID),
-//                                           Day varchar(25),
+//                                           meetingName varchar(200),
+//                                           meetingDay varchar(25),
 //                                           TimeStart varchar(25),
 //                                           TimeEnd varchar(25),
-//                                           Meeting_Type varchar(25));`;
+//                                           meetingType varchar(25));`;
+
 
 // Sample SQL statement to delete a table
 // var thisQuery = "DROP TABLE aalocations;";
@@ -62,3 +77,5 @@ client.query(thisQuery, (err, res) => {
     console.log(err, res);
     client.end();
 });
+
+
