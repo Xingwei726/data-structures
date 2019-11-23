@@ -43,7 +43,7 @@ app.get('/', function(req, res) {
               <ul>
                   <li><a href="/processblog"> Process Blog</a></li>
                   <li><a href="/sensor"> Sensor Data</a></li>
-                  <li><a href="/aalocation"> AA Data</a></li>
+                  <li><a href="/aameetings"> AA Data</a></li>
               </ul>`);    
 });
 
@@ -107,14 +107,20 @@ client.query(thisQuery, (err, res) => {
 
 
 //3. AA Data Query
-app.get('/aalocation', function(req, res) {
+app.get('/aameetings', function(req, res) {
     // res.send('<h3>this is the page for my sensor data</h3>'); 
         res.send(aa);
 });
 
 //Different SQL quries for aa data
-//Get all LocationTitle from aa data base
-var aaQuery = "SELECT locationTitle FROM aalocations;";
+// var aaQuery = "SELECT locationTitle FROM aameetings;";
+// var aaQuery = "SELECT locationTitle, meetingName, TimeStart FROM aameetings ORDER BY TimeStart";
+// var aaQuery = "SELECT locationTitle, meetingName, meetingDay, TimeStart FROM aameetings WHERE meetingDay = 'Tuesdays'";
+var aaQuery = "SELECT locationTitle, meetingName, meetingDay, meetingType, TimeStart FROM aameetings WHERE meetingDay = 'Tuesdays' AND meetingType = 'O'";
+
+
+
+
 
 client.query(aaQuery, (err, res) => {
     if (err) {throw err}

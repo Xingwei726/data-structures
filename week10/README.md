@@ -109,7 +109,7 @@ client.query(thisQuery, (err, res) => {
 ```
 
 ## AA Meetings Query (PostgreSQL)
-And for my AA meetings data I query all the location titles from aalocations database.
+And for my AA meetings data I query the locationTitle, meetingName, meetingDay, meetingType, TimeStart from aameetings database where the meetingDay = 'Tuesdays' and meetingType = 'O'". Because in my UI design, users can use the filter section to choose a specific meeting based on their required meetingDay and meeting Type. Return result is 8 meetings which fit into these restrictions.
 ```javascript
 //3. AA Data Query
 app.get('/aalocation', function(req, res) {
@@ -117,7 +117,7 @@ app.get('/aalocation', function(req, res) {
         res.send(aa);
 });
 //Get LocationTitle from aa data base
-var aaQuery = "SELECT locationTitle FROM aalocations;";
+var thisQuery = "SELECT locationTitle, meetingName, meetingDay, meetingType, TimeStart FROM aameetings WHERE meetingDay = 'Tuesdays' AND meetingType = 'O'";
 
 client.query(aaQuery, (err, res) => {
     if (err) {throw err}
