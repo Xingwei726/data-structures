@@ -1,38 +1,32 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel='stylesheet' type='text/css' href='blog-styles.css'/>
+    <link rel='stylesheet' type='text/css' href='pbStyle.css'/>
 </head>
 <body>
     <div class="container-fluid">
     <div class="jumbotron text-center">
-      <h1>Process Blog</h1>
+      <h1>Mood Blogs</h1>
       <p><a href='/'>Go back to the menu</a></p>
     </div>
+    
+
     <div class="form-group col-md-6">
-        <label for="category">Category</label>
-        <select class="custom-select" name="category">
-            <option value="all">All</option>
-            <option value="data-structures">Data Structures</option>
-            <option value="development">Development</option>
+        <label for="category">Select a Mood</label>
+        <select class="custom-select" name="mood">
+            <option value="Calm">Calm</option>
+            <option value="Whimsical">Whimsical</option>
+            <option value="Tense">Tense</option>
+            <option value="Lighthearted">Lighthearted</option>
         </select>
     </div>
-    <div class="form-row">
-        <div class="form-group col-md-6">
-            <label for="example-date-input" class="col-2 col-form-label">Start Date</label>
-            <input class="form-control" type="date" value="" name="start">
-        </div>
-        <div class="form-group col-md-6">
-            <label for="example-date-input" class="col-2 col-form-label">End Date</label>
-            <input class="form-control" type="date" value="" name="end">
-        </div>
-    </div>
-    <div class="testimonial-group">
-      <div id='blogpost' class="row text-center"></div>
-    </div>
+    
+    <div id='blogpost' class="row text-center"></div>
+
+
 </div>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
- <script src="blog.js"></script>
+<script src="pb.js"></script>
 </body>

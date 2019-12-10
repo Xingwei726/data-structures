@@ -1,0 +1,28 @@
+<!--{{#blogpost}}-->
+<!--  <div class="col-xs-4">-->
+<!--    <div class='post'>-->
+<!--      <h2>{{title}}</h2>-->
+<!--      <h2>Mood: {{mood}}</h2><h3>Date: {{date}}</h3>-->
+<!--      <h3>Color: {{color}}</h3>-->
+<!--      <h3>Coffee: {{coffee}}</h3>-->
+<!--      <p>{{content}}</p>  -->
+<!--    </div>-->
+<!--  </div>-->
+<!--{{/blogpost}}-->
+
+{{#blogpost}}
+<div class="col-sm-4">
+  <div class="card text-white bg-dark mb-3" style="width: 18rem;">
+    <!--<img src="..." class="card-img-top" alt="...">-->
+    <div class="card-body">
+      <h5 class="card-title text-left">{{title}}</h5>
+      <h3 class="card-text text-left">Mood:{{mood}}</h3>
+      <h3 class="card-text text-left">Date: {{date}}</h3>
+      <!--<p class="card-text text-left">Color: {{color}}</p>-->
+      <h3 class="card-text text-left">Coffee: {{coffee}}</h3>
+      <p class="card-text text-left">{{content}}</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+{{/blogpost}}

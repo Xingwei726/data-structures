@@ -1,7 +1,5 @@
 // map setup
 // var mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
-// var accessToken = "pk.eyJ1IjoiaHVhbng0MjkiLCJhIjoiY2szMzRzNHpqMGpiZDNib3EzbGgweHR0eSJ9.FbzMgwMQ7oL8uqZBSJqF2A"
-
 
 mapboxgl.accessToken = "pk.eyJ1IjoiaHVhbng0MjkiLCJhIjoiY2szMzRzNHpqMGpiZDNib3EzbGgweHR0eSJ9.FbzMgwMQ7oL8uqZBSJqF2A";
 var map = new mapboxgl.Map({
@@ -22,6 +20,7 @@ $(function(){
     });
 });
 
+
 function getResults(){
 
     var parameters = { day: $('select[ name="day"]').val(), type: $('select[ name="type"]').val()}
@@ -34,11 +33,11 @@ function getResults(){
         for (var i=0; i<data[1].length; i++){
 
             var popup = new mapboxgl.Popup()
-                        .setHTML ("<p>"+ data[1][i].longitude+"</P>"+"</br>"+"<p>"+ data[1][i].latitude+"</P>")
+                        .setHTML ("<h4>"+ data[1][i].longitude+"</h4>"+"</br>"+"<h4>"+ data[1][i].latitude+"</h4>")
             var el = document.createElement('div');
                 el.className =  'markerCss';
             var markerCss = new mapboxgl.Marker(el)
-           
+
             markerCss
             .setLngLat([data[1][i].longitude,data[1][i].latitude])
             .setPopup(popup)
@@ -48,6 +47,7 @@ function getResults(){
     });
     $( ".markerCss" ).remove()
 } 
+
 
 
 getResults()

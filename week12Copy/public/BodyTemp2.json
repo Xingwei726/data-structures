@@ -1,0 +1,4322 @@
+[
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "7:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 1,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "8:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 1,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "9:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 1,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "10:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 1,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "11:00 AM",
+    "Temperature": 36.1,
+    "DayIndex": 1,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 1,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "1:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 1,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "2:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 1,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 1,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "4:00 PM",
+    "Temperature": 35.9,
+    "DayIndex": 1,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "5:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 1,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "6:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 1,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 1,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "8:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 1,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "9:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 1,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "10:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 1,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "11:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 1,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/01",
+    "Time": "12:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 1,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "7:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 2,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "8:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 2,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "9:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 2,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "10:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 2,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "11:00 AM",
+    "Temperature": 36.1,
+    "DayIndex": 2,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 2,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "1:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 2,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "2:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 2,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 2,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "4:00 PM",
+    "Temperature": 35.9,
+    "DayIndex": 2,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "5:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 2,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "6:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 2,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 2,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "8:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 2,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "9:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 2,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "10:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 2,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "11:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 2,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/02",
+    "Time": "12:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 2,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "7:00 AM",
+    "Temperature": 34.8,
+    "DayIndex": 3,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "8:00 AM",
+    "Temperature": 35,
+    "DayIndex": 3,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "9:00 AM",
+    "Temperature": 35.2,
+    "DayIndex": 3,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "10:00 AM",
+    "Temperature": 34.7,
+    "DayIndex": 3,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "11:00 AM",
+    "Temperature": 35,
+    "DayIndex": 3,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "12:00 PM",
+    "Temperature": 35.3,
+    "DayIndex": 3,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "1:00 PM",
+    "Temperature": 32.4,
+    "DayIndex": 3,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "2:00 PM",
+    "Temperature": 36.9,
+    "DayIndex": 3,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "3:00 PM",
+    "Temperature": 33,
+    "DayIndex": 3,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "4:00 PM",
+    "Temperature": 33.2,
+    "DayIndex": 3,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "5:00 PM",
+    "Temperature": 34,
+    "DayIndex": 3,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "6:00 PM",
+    "Temperature": 35.7,
+    "DayIndex": 3,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "7:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 3,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "8:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 3,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "9:00 PM",
+    "Temperature": 36.8,
+    "DayIndex": 3,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "10:00 PM",
+    "Temperature": 36,
+    "DayIndex": 3,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "11:00 PM",
+    "Temperature": 36,
+    "DayIndex": 3,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/03",
+    "Time": "12:00 AM",
+    "Temperature": 35.4,
+    "DayIndex": 3,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "7:00 AM",
+    "Temperature": 34.7,
+    "DayIndex": 4,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "8:00 AM",
+    "Temperature": 35.1,
+    "DayIndex": 4,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "9:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 4,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "10:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 4,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "11:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 4,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "12:00 PM",
+    "Temperature": 36.8,
+    "DayIndex": 4,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "1:00 PM",
+    "Temperature": 35.7,
+    "DayIndex": 4,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "2:00 PM",
+    "Temperature": 35.5,
+    "DayIndex": 4,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "3:00 PM",
+    "Temperature": 35.1,
+    "DayIndex": 4,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "4:00 PM",
+    "Temperature": 34.8,
+    "DayIndex": 4,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "5:00 PM",
+    "Temperature": 35,
+    "DayIndex": 4,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "6:00 PM",
+    "Temperature": 36,
+    "DayIndex": 4,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "7:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 4,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "8:00 PM",
+    "Temperature": 35.7,
+    "DayIndex": 4,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "9:00 PM",
+    "Temperature": 34.8,
+    "DayIndex": 4,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "10:00 PM",
+    "Temperature": 35.2,
+    "DayIndex": 4,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "11:00 PM",
+    "Temperature": 35.1,
+    "DayIndex": 4,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/04",
+    "Time": "12:00 AM",
+    "Temperature": 35.2,
+    "DayIndex": 4,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "7:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 5,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "8:00 AM",
+    "Temperature": 36.7,
+    "DayIndex": 5,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "9:00 AM",
+    "Temperature": 37.5,
+    "DayIndex": 5,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "10:00 AM",
+    "Temperature": 37.4,
+    "DayIndex": 5,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "11:00 AM",
+    "Temperature": 36.8,
+    "DayIndex": 5,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "12:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 5,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "1:00 PM",
+    "Temperature": 35.9,
+    "DayIndex": 5,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "2:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 5,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "3:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 5,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "4:00 PM",
+    "Temperature": 36.8,
+    "DayIndex": 5,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "5:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 5,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "6:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 5,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "7:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 5,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "8:00 PM",
+    "Temperature": 35.1,
+    "DayIndex": 5,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "9:00 PM",
+    "Temperature": 36,
+    "DayIndex": 5,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "10:00 PM",
+    "Temperature": 36.8,
+    "DayIndex": 5,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "11:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 5,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/05",
+    "Time": "12:00 AM",
+    "Temperature": 36.8,
+    "DayIndex": 5,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "7:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 6,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "8:00 AM",
+    "Temperature": 36.8,
+    "DayIndex": 6,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "9:00 AM",
+    "Temperature": 36.7,
+    "DayIndex": 6,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "10:00 AM",
+    "Temperature": 35.9,
+    "DayIndex": 6,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "11:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 6,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "12:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 6,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "1:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 6,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "2:00 PM",
+    "Temperature": 34.9,
+    "DayIndex": 6,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 6,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "4:00 PM",
+    "Temperature": 33.8,
+    "DayIndex": 6,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "5:00 PM",
+    "Temperature": 36.8,
+    "DayIndex": 6,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "6:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 6,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 6,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "8:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 6,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "9:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 6,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "10:00 PM",
+    "Temperature": 36.9,
+    "DayIndex": 6,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "11:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 6,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/06",
+    "Time": "12:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 6,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "7:00 AM",
+    "Temperature": 36.8,
+    "DayIndex": 7,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "8:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 7,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "9:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 7,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "10:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 7,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "11:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 7,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 7,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "1:00 PM",
+    "Temperature": 35.8,
+    "DayIndex": 7,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "2:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 7,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "3:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 7,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "4:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 7,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "5:00 PM",
+    "Temperature": 34.9,
+    "DayIndex": 7,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "6:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 7,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "7:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 7,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "8:00 PM",
+    "Temperature": 35.7,
+    "DayIndex": 7,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "9:00 PM",
+    "Temperature": 34.8,
+    "DayIndex": 7,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "10:00 PM",
+    "Temperature": 35.2,
+    "DayIndex": 7,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "11:00 PM",
+    "Temperature": 35.1,
+    "DayIndex": 7,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/07",
+    "Time": "12:00 AM",
+    "Temperature": 35.2,
+    "DayIndex": 7,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "7:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 8,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "8:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 8,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "9:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 8,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "10:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 8,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "11:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 8,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "12:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 8,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "1:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 8,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "2:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 8,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "3:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 8,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "4:00 PM",
+    "Temperature": 36.1,
+    "DayIndex": 8,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "5:00 PM",
+    "Temperature": 35.8,
+    "DayIndex": 8,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "6:00 PM",
+    "Temperature": 35.9,
+    "DayIndex": 8,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "7:00 PM",
+    "Temperature": 36.1,
+    "DayIndex": 8,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "8:00 PM",
+    "Temperature": 36.1,
+    "DayIndex": 8,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "9:00 PM",
+    "Temperature": 34.8,
+    "DayIndex": 8,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "10:00 PM",
+    "Temperature": 35.2,
+    "DayIndex": 8,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "11:00 PM",
+    "Temperature": 35.1,
+    "DayIndex": 8,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/08",
+    "Time": "12:00 AM",
+    "Temperature": 35.2,
+    "DayIndex": 8,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "7:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 9,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "8:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 9,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "9:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 9,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "10:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 9,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "11:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 9,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 9,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "1:00 PM",
+    "Temperature": 35.8,
+    "DayIndex": 9,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "2:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 9,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "3:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 9,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "4:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 9,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "5:00 PM",
+    "Temperature": 34.9,
+    "DayIndex": 9,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "6:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 9,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "7:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 9,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "8:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 9,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "9:00 PM",
+    "Temperature": 34.8,
+    "DayIndex": 9,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "10:00 PM",
+    "Temperature": 35.2,
+    "DayIndex": 9,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "11:00 PM",
+    "Temperature": 35.1,
+    "DayIndex": 9,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/09",
+    "Time": "12:00 AM",
+    "Temperature": 35.2,
+    "DayIndex": 9,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "7:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 10,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "8:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 10,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "9:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 10,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "10:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 10,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "11:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 10,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 10,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "1:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 10,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "2:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 10,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 10,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "4:00 PM",
+    "Temperature": 35.8,
+    "DayIndex": 10,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "5:00 PM",
+    "Temperature": 35.8,
+    "DayIndex": 10,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "6:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 10,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 10,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "8:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 10,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "9:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 10,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "10:00 PM",
+    "Temperature": 36.9,
+    "DayIndex": 10,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "11:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 10,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/10",
+    "Time": "12:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 10,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "7:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 11,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "8:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 11,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "9:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 11,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "10:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 11,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "11:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 11,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "12:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 11,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "1:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 11,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "2:00 PM",
+    "Temperature": 35.6,
+    "DayIndex": 11,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "3:00 PM",
+    "Temperature": 35.8,
+    "DayIndex": 11,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "4:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 11,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "5:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 11,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "6:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 11,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 11,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "8:00 PM",
+    "Temperature": 36.8,
+    "DayIndex": 11,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "9:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 11,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "10:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 11,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "11:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 11,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/11",
+    "Time": "12:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 11,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "7:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 12,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "8:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 12,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "9:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 12,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "10:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 12,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "11:00 AM",
+    "Temperature": 36.1,
+    "DayIndex": 12,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 12,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "1:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 12,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "2:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 12,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 12,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "4:00 PM",
+    "Temperature": 35.9,
+    "DayIndex": 12,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "5:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 12,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "6:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 12,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 12,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "8:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 12,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "9:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 12,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "10:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 12,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "11:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 12,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/12",
+    "Time": "12:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 12,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "7:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 13,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "8:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 13,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "9:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 13,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "10:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 13,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "11:00 AM",
+    "Temperature": 36.1,
+    "DayIndex": 13,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 13,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "1:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 13,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "2:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 13,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 13,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "4:00 PM",
+    "Temperature": 35.9,
+    "DayIndex": 13,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "5:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 13,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "6:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 13,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 13,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "8:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 13,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "9:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 13,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "10:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 13,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "11:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 13,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/13",
+    "Time": "12:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 13,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "7:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 14,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "8:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 14,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "9:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 14,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "10:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 14,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "11:00 AM",
+    "Temperature": 36.1,
+    "DayIndex": 14,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 14,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "1:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 14,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "2:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 14,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 14,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "4:00 PM",
+    "Temperature": 35.9,
+    "DayIndex": 14,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "5:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 14,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "6:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 14,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 14,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "8:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 14,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "9:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 14,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "10:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 14,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "11:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 14,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/14",
+    "Time": "12:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 14,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "7:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 15,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "8:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 15,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "9:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 15,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "10:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 15,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "11:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 15,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 15,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "1:00 PM",
+    "Temperature": 35.8,
+    "DayIndex": 15,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "2:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 15,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "3:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 15,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "4:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 15,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "5:00 PM",
+    "Temperature": 34.9,
+    "DayIndex": 15,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "6:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 15,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "7:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 15,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "8:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 15,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "9:00 PM",
+    "Temperature": 34.8,
+    "DayIndex": 15,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "10:00 PM",
+    "Temperature": 35.2,
+    "DayIndex": 15,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "11:00 PM",
+    "Temperature": 35.1,
+    "DayIndex": 15,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/15",
+    "Time": "12:00 AM",
+    "Temperature": 35.2,
+    "DayIndex": 15,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "7:00 AM",
+    "Temperature": 35.9,
+    "DayIndex": 16,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "8:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 16,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "9:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 16,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "10:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 16,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "11:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 16,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 16,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "1:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 16,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "2:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 16,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 16,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "4:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 16,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "5:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 16,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "6:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 16,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "7:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 16,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "8:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 16,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "9:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 16,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "10:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 16,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "11:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 16,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/16",
+    "Time": "12:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 16,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "7:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 17,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "8:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 17,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "9:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 17,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "10:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 17,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "11:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 17,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 17,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "1:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 17,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "2:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 17,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 17,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "4:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 17,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "5:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 17,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "6:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 17,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "7:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 17,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "8:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 17,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "9:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 17,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "10:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 17,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "11:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 17,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/17",
+    "Time": "12:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 17,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "7:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 18,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "8:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 18,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "9:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 18,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "10:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 18,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "11:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 18,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 18,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "1:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 18,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "2:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 18,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 18,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "4:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 18,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "5:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 18,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "6:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 18,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 18,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "8:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 18,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "9:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 18,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "10:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 18,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "11:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 18,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/18",
+    "Time": "12:00 AM",
+    "Temperature": 36.7,
+    "DayIndex": 18,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "7:00 AM",
+    "Temperature": 35.9,
+    "DayIndex": 19,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "8:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 19,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "9:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 19,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "10:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 19,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "11:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 19,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 19,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "1:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 19,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "2:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 19,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 19,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "4:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 19,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "5:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 19,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "6:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 19,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "7:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 19,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "8:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 19,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "9:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 19,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "10:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 19,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "11:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 19,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/19",
+    "Time": "12:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 19,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "7:00 AM",
+    "Temperature": 35.9,
+    "DayIndex": 20,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "8:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 20,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "9:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 20,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "10:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 20,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "11:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 20,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "12:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 20,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "1:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 20,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "2:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 20,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 20,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "4:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 20,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "5:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 20,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "6:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 20,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "7:00 PM",
+    "Temperature": 35.9,
+    "DayIndex": 20,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "8:00 PM",
+    "Temperature": 35.7,
+    "DayIndex": 20,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "9:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 20,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "10:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 20,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "11:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 20,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/20",
+    "Time": "12:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 20,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "7:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 21,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "8:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 21,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "9:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 21,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "10:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 21,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "11:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 21,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "12:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 21,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "1:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 21,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "2:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 21,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "3:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 21,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "4:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 21,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "5:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 21,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "6:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 21,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 21,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "8:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 21,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "9:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 21,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "10:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 21,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "11:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 21,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/21",
+    "Time": "12:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 21,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "7:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 22,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "8:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 22,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "9:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 22,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "10:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 22,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "11:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 22,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "12:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 22,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "1:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 22,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "2:00 PM",
+    "Temperature": 35.6,
+    "DayIndex": 22,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "3:00 PM",
+    "Temperature": 35.8,
+    "DayIndex": 22,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "4:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 22,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "5:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 22,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "6:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 22,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 22,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "8:00 PM",
+    "Temperature": 36.8,
+    "DayIndex": 22,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "9:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 22,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "10:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 22,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "11:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 22,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/22",
+    "Time": "12:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 22,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "7:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 23,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "8:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 23,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "9:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 23,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "10:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 23,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "11:00 AM",
+    "Temperature": 35.9,
+    "DayIndex": 23,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "12:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 23,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "1:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 23,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "2:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 23,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "3:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 23,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "4:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 23,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "5:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 23,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "6:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 23,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "7:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 23,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "8:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 23,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "9:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 23,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "10:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 23,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "11:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 23,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/23",
+    "Time": "12:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 23,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "7:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 24,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "8:00 AM",
+    "Temperature": 35.8,
+    "DayIndex": 24,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "9:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 24,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "10:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 24,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "11:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 24,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "12:00 PM",
+    "Temperature": 34.9,
+    "DayIndex": 24,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "1:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 24,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "2:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 24,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "3:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 24,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "4:00 PM",
+    "Temperature": 34.8,
+    "DayIndex": 24,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "5:00 PM",
+    "Temperature": 36,
+    "DayIndex": 24,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "6:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 24,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "7:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 24,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "8:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 24,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "9:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 24,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "10:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 24,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "11:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 24,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Sunday",
+    "Date": "11/24",
+    "Time": "12:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 24,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "7:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 25,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "8:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 25,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "9:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 25,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "10:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 25,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "11:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 25,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 25,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "1:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 25,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "2:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 25,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 25,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "4:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 25,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "5:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 25,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "6:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 25,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 25,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "8:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 25,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "9:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 25,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "10:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 25,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "11:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 25,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Monday",
+    "Date": "11/25",
+    "Time": "12:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 25,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "7:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 26,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "8:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 26,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "9:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 26,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "10:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 26,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "11:00 AM",
+    "Temperature": 36.2,
+    "DayIndex": 26,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 26,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "1:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 26,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "2:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 26,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 26,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "4:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 26,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "5:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 26,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "6:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 26,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 26,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "8:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 26,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "9:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 26,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "10:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 26,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "11:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 26,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Tuesday",
+    "Date": "11/26",
+    "Time": "12:00 AM",
+    "Temperature": 36.7,
+    "DayIndex": 26,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "7:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 27,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "8:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 27,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "9:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 27,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "10:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 27,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "11:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 27,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 27,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "1:00 PM",
+    "Temperature": 35.8,
+    "DayIndex": 27,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "2:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 27,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "3:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 27,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "4:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 27,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "5:00 PM",
+    "Temperature": 34.9,
+    "DayIndex": 27,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "6:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 27,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "7:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 27,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "8:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 27,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "9:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 27,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "10:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 27,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "11:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 27,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Wednesday",
+    "Date": "11/27",
+    "Time": "12:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 27,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "7:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 28,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "8:00 AM",
+    "Temperature": 36.8,
+    "DayIndex": 28,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "9:00 AM",
+    "Temperature": 36.7,
+    "DayIndex": 28,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "10:00 AM",
+    "Temperature": 35.9,
+    "DayIndex": 28,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "11:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 28,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "12:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 28,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "1:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 28,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "2:00 PM",
+    "Temperature": 34.9,
+    "DayIndex": 28,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 28,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "4:00 PM",
+    "Temperature": 33.8,
+    "DayIndex": 28,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "5:00 PM",
+    "Temperature": 36.8,
+    "DayIndex": 28,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "6:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 28,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 28,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "8:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 28,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "9:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 28,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "10:00 PM",
+    "Temperature": 36.9,
+    "DayIndex": 28,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "11:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 28,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Thurday",
+    "Date": "11/28",
+    "Time": "12:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 28,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "7:00 AM",
+    "Temperature": 36.6,
+    "DayIndex": 29,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "8:00 AM",
+    "Temperature": 36.8,
+    "DayIndex": 29,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "9:00 AM",
+    "Temperature": 36.7,
+    "DayIndex": 29,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "10:00 AM",
+    "Temperature": 35.9,
+    "DayIndex": 29,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "11:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 29,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "12:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 29,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "1:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 29,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "2:00 PM",
+    "Temperature": 34.9,
+    "DayIndex": 29,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 29,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "4:00 PM",
+    "Temperature": 33.8,
+    "DayIndex": 29,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "5:00 PM",
+    "Temperature": 36.8,
+    "DayIndex": 29,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "6:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 29,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 29,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "8:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 29,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "9:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 29,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "10:00 PM",
+    "Temperature": 36.9,
+    "DayIndex": 29,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "11:00 PM",
+    "Temperature": 36.7,
+    "DayIndex": 29,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Friday",
+    "Date": "11/29",
+    "Time": "12:00 AM",
+    "Temperature": 36.5,
+    "DayIndex": 29,
+    "TimeIndex": 24
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "7:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 30,
+    "TimeIndex": 7
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "8:00 AM",
+    "Temperature": 36.4,
+    "DayIndex": 30,
+    "TimeIndex": 8
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "9:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 30,
+    "TimeIndex": 9
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "10:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 30,
+    "TimeIndex": 10
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "11:00 AM",
+    "Temperature": 36.1,
+    "DayIndex": 30,
+    "TimeIndex": 11
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "12:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 30,
+    "TimeIndex": 12
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "1:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 30,
+    "TimeIndex": 13
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "2:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 30,
+    "TimeIndex": 14
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "3:00 PM",
+    "Temperature": 36.6,
+    "DayIndex": 30,
+    "TimeIndex": 15
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "4:00 PM",
+    "Temperature": 35.9,
+    "DayIndex": 30,
+    "TimeIndex": 16
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "5:00 PM",
+    "Temperature": 36.2,
+    "DayIndex": 30,
+    "TimeIndex": 17
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "6:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 30,
+    "TimeIndex": 18
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "7:00 PM",
+    "Temperature": 36.5,
+    "DayIndex": 30,
+    "TimeIndex": 19
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "8:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 30,
+    "TimeIndex": 20
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "9:00 PM",
+    "Temperature": 36.3,
+    "DayIndex": 30,
+    "TimeIndex": 21
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "10:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 30,
+    "TimeIndex": 22
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "11:00 PM",
+    "Temperature": 36.4,
+    "DayIndex": 30,
+    "TimeIndex": 23
+  },
+  {
+    "Day": "Saturday",
+    "Date": "11/30",
+    "Time": "12:00 AM",
+    "Temperature": 36.3,
+    "DayIndex": 30,
+    "TimeIndex": 24
+  }
+]
