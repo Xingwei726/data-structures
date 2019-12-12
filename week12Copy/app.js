@@ -154,10 +154,10 @@ function dayFilter(day, type){
       const client = new Client(db_credentials);
       client.connect();
       
-      var thisQuery = `SELECT latitude, longitude, locationTitle, city, state, zip, json_agg(json_build_object('location', locationTitle, 'address', streetInfo,'details',details, 'meeting', meetingName, 'day', meetingDay, 'types', meetingType,'shour', TimeStart)) as meeting
+      var thisQuery = `SELECT latitude, longitude, locationTitle, json_agg(json_build_object('location', locationTitle, 'address', streetInfo,'details',details, 'zipcode', zip, 'state', state,'city', city, 'meeting', meetingName, 'day', meetingDay,'shour', TimeStart,'ehour', TimeEnd, 'types', meetingType,'wheelchair', wheelchair)) as meeting
       FROM aameetings
       WHERE meetingDay = '` + dayy + `' AND meetingType = '` + typee + `'
-      GROUP BY locationTitle, latitude, longitude, city, state, zip
+      GROUP BY locationTitle, latitude, longitude
       ;`;
 
       client.query(thisQuery, async (err, res) => {
@@ -174,71 +174,6 @@ function dayFilter(day, type){
     });
  }
 
-
-
-// //8. Create a function to query data by concepts 
-
-// function processBlog(minDate, maxDate, patitionKey){
-//     return new Promise(resolve => {
-//         var output = {};
-        
-//         minDate = minDate || "Tue Sep 10 2019";
-//         maxDate = maxDate || "Thu Oct 10 2019"; 
-//         patitionKey = patitionKey || "calm";
-
-//         output.blogpost = [];
-        
-//         if (patitionKey != 'all'){
-//             var params = {
-//                 TableName : "processblog",
-//                 KeyConditionExpression: "#tp = :patitionKey and created between :minDate and :maxDate",
-//                 ExpressionAttributeNames: {
-//                     "#tp" : "mood",
-//                 },
-//                 ExpressionAttributeValues: { 
-//                     ":patitionKey": {S: patitionKey},
-//                     ":minDate": {S: new Date(minDate).toISOString()},
-//                     ":maxDate": {S: new Date(maxDate).toISOString()},
-//                 }
-//             };
-            
-//             dynamodb.query(params, onScan);
-
-//         } else {
-//             var params = {
-//                 TableName: "processblog",
-//                 ProjectionExpression: "title, mood, content, cupofcoffee, color, eatchocolate, iate",
-//                 FilterExpression: "created between :minDate and :maxDate",
-//                 ExpressionAttributeValues: { // the query values
-//                     ":minDate": {S: new Date(minDate).toISOString()},
-//                     ":maxDate": {S: new Date(maxDate).toISOString()}
-//                 }
-//             };
-            
-//             dynamodb.scan(params, onScan)
-
-//         }
-        
-//         function onScan(err, data) {
-//             if (err) {
-//                 console.error("Unable to scan the table. Error JSON:", JSON.stringify(err, null, 2));
-//             } else {
-//                 // print all the movies
-//                 console.log("Scan succeeded.");
-//                 data.Items.forEach(function(item) {
-//                     output.blogpost.push({'title':item.title.S, 'content':item.content.S,'created':moment(item.date.S).format("LL")});
-//                 });
-    
-//                 fs.readFile('pbhandlebars.html', 'utf8', (error, data) => {
-//                     var template = handlebars.compile(data);
-//                     var html = template(output);
-//                     resolve(html);
-//                 });
-//             }
-//         };
-//     });
-// }
- 
  
  
  
@@ -260,6 +195,36 @@ function processBlog(mood){
                 ":patitionKey": {S: patitionKeyy},
             }
         };
+        
+        
+        //  if (patitionKeyy != 'All'){
+        //     var params = {
+        //     TableName : "processblog",
+        //     KeyConditionExpression: "#tp = :patitionKey", // the query expression
+        //     ExpressionAttributeNames: { // name substitution, used for reserved words in DynamoDB
+        //         "#tp" : "mood",
+        //     },
+        //     ExpressionAttributeValues: { // the query values
+        //         ":patitionKey": {S: patitionKeyy},
+        //     }
+        //     };
+             
+        //  } else {
+        //     var params = {
+        //     TableName : "processblog",
+        //     FilterExpression: "#dt between :minDate and :maxDate",
+        //     ExpressionAttributeNames:{
+        //       "#dt" : "date"
+
+        //     },
+        //     ExpressionAttributeValues: {
+        //         ":minDate": {S: new Date("Tue Sep 10 2019").valueOf().toString()},
+        //         ":maxDate": {S: new Date("Thu Oct 10 2019").valueOf().toString()}
+        //     }
+        // }; 
+             
+             
+        //  }
 
         
         dynamodb.query(params, function(err, data) {
@@ -269,7 +234,7 @@ function processBlog(mood){
                 console.log("Query succeeded.");
                     data.Items.forEach(function(item) {
                         console.log("***** ***** ***** ***** ***** \n", item);
-                        output.blogpost.push({'title':item.title.S, 'mood':item.mood.S,'date':moment(item.date.S).format("L"),'color':item.color.S,'coffee':item.cupofcoffee.N,'content':item.content.S});
+                        output.blogpost.push({'title':item.title.S, 'mood':item.mood.S,'date':moment(item.date.S).format("L"),'color':item.color.S,'coffee':item.cupofcoffee.N,'ateChocolate':item.eatchocolate.BOOL,'content':item.content.S});
                     });
                     fs.readFile('pbhandle.html', 'utf8', (error, data) => {
                         console.log(data)

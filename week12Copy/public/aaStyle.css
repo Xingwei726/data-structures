@@ -21,11 +21,20 @@ h2{
 }
 
 h3{
-  font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  
 }
 
 h4{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+h5{
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -66,10 +75,32 @@ div.sticky {
   padding-bottom: 0;
 }
 
+label{
+  color:#FFFFFF;
+}
+
 .custom-select{
     font-size: 14px;
     padding-left: 10px;
     color: "#1B3464";
     font-family: 'Open Sans', sans-serif;
     /*height: 50px;*/
+}
+
+.mapboxgl-popup-close-button {
+  display: none;
+}
+
+.mapboxgl-popup-content{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+}
+
+.mapboxgl-popup-content-wrapper{
+  padding: 2%;
+}
+
+.location{
+  position: -webkit-sticky;
+  position: sticky;  
 }

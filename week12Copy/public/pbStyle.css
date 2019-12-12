@@ -3,22 +3,122 @@ body {
   padding: 0;
 }
 
-h3{
-  font-size: 18px;
+h1{
+  font-size: 30px;
+  font-family: 'Rubik', sans-serif; 
+  color: #FFFFFF;
+  padding-left: 20px;
+  margin-left: 80px;
+  font-weight: normal;
+
 }
 
-h4{
+
+h2{
+  font-family: 'Rubik', sans-serif;
   font-size: 14px;
+  color: #FFFFFF;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0px;
+  font-weight: normal;
 }
 
 
-#blogpost{
-  
-  
-  
+h3{
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  color: "black";
+  font-weight: normal;
+}
+
+
+/*h4{*/
+/*  font-family: 'Rubik', sans-serif;*/
+/*  font-size: 14px;*/
+/*  color: "black";*/
+/*  font-weight: bold;*/
+/*}*/
+
+
+h5{
+  color: "black";
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+}
+
+h6 {
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+}
+
+
+.collapseExample p{
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  color: "black";
+  font-weight: normal;
+  text-align: left;
+  margin-top: 10px;
+}
+
+
+.card{
+  margin-right: 60px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .card-body{
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+
+span.badge{
+  /*float: left;*/
+  margin-bottom: 10px;
+  margin-top: -38px;
+  /*margin-left: 0px;*/
+  display: table-caption;
+  margin-left: auto;
+}
+
+.form-group{
+  padding-left: 0px;
+}
+
+span.color{
+  /*float: left;*/
+  margin-bottom: 20px;
+  margin-top: -32px;
+  /*display: table-caption;*/
+  margin-left: auto;
+  margin-right: 10px;
+
+}
+
+.navbar-brand{
+  padding-left: 20px;
+  margin-right: 160px;
+  padding-right: 20px;
+}
+
+.btn{
+  margin-right: 60px;
+  margin-top: 30px;
+  padding-right: 15px; 
+  padding-left: 15px; 
+  padding-top: 0px;
+  padding-bottom: 0px; 
+  height:45px;
+
+
+
 }

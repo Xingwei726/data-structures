@@ -1,26 +1,57 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' href='pbStyle.css'/>
+    
+    <!--Typefaces-->
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="background-color:#1A293C;">
     <div class="container-fluid">
-    <div class="jumbotron text-center">
+    <!--<div class="jumbotron text-center">-->
+    <!--  <h1>Mood Blogs</h1>-->
+    <!--  <p><a href='/'>Go back to the menu</a></p>-->
+    <!--</div>-->
+    
+    <nav class="navbar navbar-light">
+    <a class="navbar-brand col-sm">
       <h1>Mood Blogs</h1>
-      <p><a href='/'>Go back to the menu</a></p>
-    </div>
-    
+    </a>
+    <a class="navbar-brand " href='./index.html'>
+      <h1>Go Back</h1>
+    </a>
+    </nav>
 
-    <div class="form-group col-md-6">
-        <label for="category">Select a Mood</label>
-        <select class="custom-select" name="mood">
-            <option value="Calm">Calm</option>
-            <option value="Whimsical">Whimsical</option>
-            <option value="Tense">Tense</option>
-            <option value="Lighthearted">Lighthearted</option>
-        </select>
-    </div>
     
-    <div id='blogpost' class="row text-center"></div>
+   <div class="container">
+    <div class="row">
+        <!--Mood Filter-->
+            <div class="form-group col-sm">
+                <label for="category"><h6>Select a Mood</h6></label>
+                <select class="custom-select" name="mood" style="color:#FFFFFF; background-color:#1A293C">
+                    <option value="Calm">Calm</option>
+                    <option value="Whimsical">Whimsical</option>
+                    <option value="Cheerful">Cheerful</option>
+                    <option value="Critical">Critical</option>
+                    <option value="Drained">Drained</option>
+                    <option value="Happy">Happy</option>
+                    <option value="Idyllic">Idyllic</option>
+                    <option value="Peaceful">Peaceful</option>
+                    <option value="Tense">Tense</option>
+                    <option value="Lighthearted">Lighthearted</option>
+                </select>
+            </div>
+            
+            <!--Button-->
+            <div class="col-sm"></div>
+                <button class="btn btn-light" data-toggle="collapse" href=".collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <h3>Show Entry Details</h3>
+                </button>
+            <div>
+                
+    </div>
+   </div>
+  
+   <div id='blogpost' class="row text-center"></div>
 
 
 </div>

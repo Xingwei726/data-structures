@@ -165,13 +165,13 @@ var mouseover = function(d) {
     tooltip
       .style("opacity", 1)
     d3.select(this)
-      .style("stroke", "black")
+      .style("stroke", "white")
       .style("opacity", 1)
   }
   
 var mousemove = function(d) {
     tooltip
-      .html("The temperature at <br>this hour is: " + format(d.avgtemp) + "°C")
+      .html("Environmental temperature at <br>this hour is: " + format(d.avgtemp) + "°C")
       .style("left",d.sensorday*40  + "px")     
       .style("bottom", d.sensorhour*15 + "px");
   }
@@ -234,7 +234,7 @@ function circle(){
         tooltip2
           .style("opacity", 1)
         d3.select(this)
-          .style("stroke", "white")
+          .style("stroke", "black")
           .style("opacity", 1)
       }
       
