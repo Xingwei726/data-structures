@@ -120,6 +120,7 @@ When users land on the homepage, it will make a query to the database of the def
 
   
 **Part Four: Query Design**
+
 The app uses [handlebars](https://handlebarsjs.com/) and npm [express](https://www.npmjs.com/package/express)  to send data to the webpage. Values of Day and Type filter from front-end interface will be passed into the SQL query. SELECT statement sets latitude, longitude, locationTitle as unique parameters and then creates a JSON object for the detail information. 
 
 ```javascript
@@ -202,5 +203,7 @@ var popup = new mapboxgl.Popup()
 Using a separate CSS file to style the texts. For more information please visit [here](https://github.com/Xingwei726/data-structures/tree/master/Final).
 
 **Part Six: Final Product**
+
 ![](AA.png)
+
 **Link to the app:** http://3.85.39.185:8080
