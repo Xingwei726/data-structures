@@ -202,5 +202,5 @@ var popup = new mapboxgl.Popup()
 Using a separate CSS file to style the texts. For more information please visit [here](https://github.com/Xingwei726/data-structures/tree/master/Final).
 
 **Part Six: Final Product**
-![](AAERModeling.png)
+![](AA.png)
 **Link to the app:** http://3.85.39.185:8080
