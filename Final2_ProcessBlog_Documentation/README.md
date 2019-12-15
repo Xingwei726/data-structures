@@ -86,7 +86,7 @@ function putItems(items){
   
 **Part Three: Visual Design**
 
-![](processHomepage.png)
+<!--![](processHomepage.png)-->
 
  - The landing page for my process blog is a grid view of all blog
    posts, default setting is that all posts are arranged

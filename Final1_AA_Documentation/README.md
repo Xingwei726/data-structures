@@ -113,7 +113,6 @@ async.eachSeries(addressesForDb, function (value1, callback1) {
   
 **Part Three: Visual Design**
 
-![](aaHomepageTooltip.png)
 Two main filters I considered to use here are by **'Day of the Week'** and **'Meeting Type'** because I thought about my users might want to find a meeting that fit his / her needs, for example he or she might want to locate a Tuesday meeting that's open for beginners, then all they need to do is to select 'Tuesday' under the day filter and select 'B' in meeting type list. Then dots on the map will be filtered based on the selections.
 
 When users land on the homepage, it will make a query to the database of the default setting. Then after users make filter decisions, it will make a query that based on the filters and return will all the location & meeting information that fit to the keys.
