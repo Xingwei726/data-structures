@@ -20,7 +20,12 @@ client.connect();
 
 //Query from aameetings
 // var thisQuery = "SELECT meetingName, meetingDay, TimeStart, TimeEnd, meetingType FROM aameetings;";
-var thisQuery = "SELECT * FROM aameetings;"
+var thisQuery = "SELECT * FROM aameetings;";
+// var thisQuery = "SELECT locationTitle, meetingName, TimeStart FROM aameetings ORDER BY TimeStart";
+// var thisQuery = "SELECT locationTitle, meetingName, meetingDay, meetingType, TimeStart FROM aameetings WHERE meetingDay = 'Tuesdays' AND meetingType = 'O'";
+// var thisQuery = "SELECT COUNT(*) FROM aameetings WHERE TimeStart > '7:45 PM'"; //return count 163
+
+
 
 
 client.query(thisQuery, (err, res) => {

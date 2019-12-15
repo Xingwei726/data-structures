@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+        <head>
+            <meta charset='utf-8' />
+            <title>Temperature Sensor</title>
+            <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+            <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+            <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
+            <!--<script src="https://d3js.org/d3.v5.js"></script>-->
+            <script src="https://d3js.org/d3.v4.js"></script>
+            <script src="https://d3js.org/d3-format.v1.min.js"></script>
+            <!--<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>-->
+
+
+
+            <link rel='stylesheet' type='text/css' href='aaStyle.css' />
+            
+            
+            <!-- Bootstrap CSS -->
+            <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
+            <link rel='stylesheet' type='text/css' href='tempStyle.css'/>
+        </head>
+        
+        <body style="background-color:#1A293C;">
+
+            <nav class="navbar navbar-light">
+                <a class="navbar-brand">
+                    <h1>Temperature Sensor</h1>
+                </a>
+                <a class="navbar-brand" href='./index.html'>
+                    <div id="img" style="display:inline;"><img style="width:20px;  margin:10px;" src="/images/leftarrow.svg"></div>
+                    <div id ="text" style="display:inline; white-space:nowrap;"><h4>Back</h4></div>
+                </a>
+            </nav>
+            
+            <div id="img" style="display:inline;"><img style="height:90px;  padding-left: 50px; margin-top:50px; " src="/images/legend.svg"></div>
+
+            
+            
+
+
+            <div id='graph' style="display:inline;">
+
+               <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+               <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+               <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+               <!--d3 dependencies-->
+               <!--<script src="https://d3js.org/d3.v3.min.js"></script>-->
+               <script src="https://d3js.org/d3.v4.js"></script>
+               <script src="https://d3js.org/d3-format.v1.min.js"></script>
+               <script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+               
+               <script src="handlebars-v4.5.3.js"></script>
+               <script src="temp.js"></script>
+
+        </body>
+</html>

@@ -1,0 +1,19 @@
+{{#meetings}}
+  <div class="location" data-latlon="{{latitude}},{{longitude}}">
+    <h3>{{details}}</h3>
+    <!--<h4>{{city}}</h4>-->
+    <!--<h4>{{state}}</h4>-->
+    <!--<h4>{{zip}}</h4>-->
+    {{#meeting}}
+    <div class="meeting">
+      <h6>{{location}}</h6>
+      <h6>{{meeting}}</h6>
+      <h6>{{address}}</h6>
+
+    </div>
+    {{/meeting}}
+    
+  </div>
+ {{/meetings}}
+ 
+ 

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="956" height="93" viewBox="0 0 956 93">
+  <g id="Group_84" data-name="Group 84" transform="translate(-1990 -2810)">
+    <rect id="Rectangle_709" data-name="Rectangle 709" width="25.004" height="25" transform="translate(2021.5 2879.5) rotate(-90)" fill="#02020b"/>
+    <rect id="Rectangle_710" data-name="Rectangle 710" width="25.004" height="25" transform="translate(1991.5 2879.5) rotate(-90)"/>
+    <rect id="Rectangle_711" data-name="Rectangle 711" width="25.004" height="25" transform="translate(2231.5 2879.5) rotate(-90)" fill="#bb4b4e"/>
+    <rect id="Rectangle_723" data-name="Rectangle 723" width="25.004" height="25" transform="translate(2370.5 2879.5) rotate(-90)" fill="#f2bb48"/>
+    <rect id="Rectangle_712" data-name="Rectangle 712" width="25.004" height="25" transform="translate(2091.5 2879.5) rotate(-90)" fill="#34125f"/>
+    <rect id="Rectangle_721" data-name="Rectangle 721" width="25.004" height="25" transform="translate(2300.5 2879.5) rotate(-90)" fill="#e17638"/>
+    <rect id="Rectangle_728" data-name="Rectangle 728" width="25.004" height="25" transform="translate(2440.5 2879.5) rotate(-90)" fill="#f1e97d"/>
+    <rect id="Rectangle_713" data-name="Rectangle 713" width="25.004" height="25" transform="translate(2161.5 2879.5) rotate(-90)" fill="#812e67"/>
+    <rect id="Rectangle_714" data-name="Rectangle 714" width="25.004" height="25" transform="translate(2044.5 2879.5) rotate(-90)" fill="#0e0b2b"/>
+    <rect id="Rectangle_715" data-name="Rectangle 715" width="25.004" height="25" transform="translate(2254.5 2879.5) rotate(-90)" fill="#c85547"/>
+    <rect id="Rectangle_726" data-name="Rectangle 726" width="25.004" height="25" transform="translate(2394.5 2879.5) rotate(-90)" fill="#f2cd57"/>
+    <rect id="Rectangle_716" data-name="Rectangle 716" width="25.004" height="25" transform="translate(2114.5 2879.5) rotate(-90)" fill="#521c6a"/>
+    <rect id="Rectangle_724" data-name="Rectangle 724" width="25.004" height="25" transform="translate(2324.5 2879.5) rotate(-90)" fill="#ea8e37"/>
+    <rect id="Rectangle_729" data-name="Rectangle 729" width="25.004" height="25" transform="translate(2464.5 2879.5) rotate(-90)" fill="#f3f18d"/>
+    <rect id="Rectangle_717" data-name="Rectangle 717" width="25.004" height="25" transform="translate(2184.5 2879.5) rotate(-90)" fill="#973760"/>
+    <rect id="Rectangle_718" data-name="Rectangle 718" width="25.004" height="25" transform="translate(2068.5 2879.5) rotate(-90)" fill="#22114e"/>
+    <rect id="Rectangle_722" data-name="Rectangle 722" width="25.004" height="25" transform="translate(2277.5 2879.5) rotate(-90)" fill="#d8663d"/>
+    <rect id="Rectangle_727" data-name="Rectangle 727" width="25.004" height="25" transform="translate(2417.5 2879.5) rotate(-90)" fill="#f2d762"/>
+    <rect id="Rectangle_719" data-name="Rectangle 719" width="25.004" height="25" transform="translate(2138.5 2879.5) rotate(-90)" fill="#61216b"/>
+    <rect id="Rectangle_725" data-name="Rectangle 725" width="25.004" height="25" transform="translate(2347.5 2879.5) rotate(-90)" fill="#f0a83d"/>
+    <rect id="Rectangle_720" data-name="Rectangle 720" width="25.004" height="25" transform="translate(2207.5 2879.5) rotate(-90)" fill="#a63d5b"/>
+    <text id="Coldest" transform="translate(2020 2900)" fill="#fff" font-size="12" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Coldest</tspan></text>
+    <text id="Error" transform="translate(1991 2842)" fill="#fff" font-size="12" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Error</tspan></text>
+    <text id="Warmest" transform="translate(2464.5 2900)" fill="#fff" font-size="12" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Warmest</tspan></text>
+    <text id="Value_Range_C_" data-name="Value Range ( °C )" transform="translate(1991 2824)" fill="#fff" font-size="14" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">Value Range ( °C )</tspan></text>
+    <text id="Temperature_Range_C_" data-name="Temperature Range ( °C )" transform="translate(2553 2824)" fill="#fff" font-size="14" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">Temperature Range ( °C )</tspan></text>
+    <path id="Polygon_8" data-name="Polygon 8" d="M3.5,0,7,6.3H0Z" transform="translate(2474 2880)" fill="#fff"/>
+    <path id="Polygon_6" data-name="Polygon 6" d="M3.5,0,7,6.3H0Z" transform="translate(2027 2880)" fill="#fff"/>
+    <path id="Polygon_7" data-name="Polygon 7" d="M3.5,0,7,6.3H0Z" transform="translate(2008 2854.3) rotate(180)" fill="#fff"/>
+    <text id="Exterior_Temp:_4_30_Body_Temp:_32.4_37" data-name="Exterior Temp: 4 ~ 30
+Body Temp: 32.4 ~ 37" transform="translate(2553 2864)" fill="#fff" font-size="12" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Exterior Temp: 4 ~ 30</tspan><tspan x="0" y="15">Body Temp: 32.4 ~ 37</tspan></text>
+    <text id="_I_only_measured_my_body_temperature_between_7am_to_12am_once_per_hour." data-name="*I only measured my body temperature 
+between 7am to 12am, once per hour." transform="translate(2727 2864)" fill="#fff" font-size="12" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">*I only measured my body temperature </tspan><tspan x="0" y="15">between 7am to 12am, once per hour.</tspan></text>
+  </g>
+</svg>

@@ -18,6 +18,7 @@ const { Client } = require('pg');
 const dotenv = require('dotenv');
 dotenv.config({path: '/home/ec2-user/environment/week10/.env'});
 
+
 const db_credentials = new Object({
   user: "huanx429",
   password: process.env.AWSRDS_PW,
