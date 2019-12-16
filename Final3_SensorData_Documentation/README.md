@@ -1,4 +1,7 @@
 ## Final Assignment 3 ( Sensor Data )
+
+**Link to the app:** http://3.85.39.185:8080
+
 Human body temperature is not consistent throughout the day, normally fluctuates over the day following Circadian rhythms, with the lowest levels around 4 a.m. and the highest in the late afternoon. By measuring the temperature of my surroundings (exterior) and my body temperature (interior). I'm curious about what temperatures have I experienced in a day? And how do outside temperatures affect my core body temperature? Is there a correlated relationship/ pattern between them or none?
 
 This project aggregates weekly assignment [8](https://github.com/Xingwei726/data-structures/tree/master/week8) and [9](https://github.com/Xingwei726/data-structures/tree/master/week9). Environmental temperature data was collected through Particle [Electron](https://docs.particle.io/electron/) and body temperature data was measured through a thermometer.

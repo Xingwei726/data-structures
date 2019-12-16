@@ -1,4 +1,7 @@
 ## Final Assignment 2 ( Process Blog )
+
+**Link to the app:** http://3.85.39.185:8080
+
 This process blog is a collection of my Mood Entries through September to October. It aggregates the process and results in weekly assignment [5](https://github.com/Xingwei726/data-structures/tree/master/week5) , [6](https://github.com/Xingwei726/data-structures/tree/master/week6) and [11](https://github.com/Xingwei726/data-structures/tree/master/week11).
 
 ## Working Process

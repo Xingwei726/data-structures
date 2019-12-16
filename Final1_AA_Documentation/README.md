@@ -1,5 +1,8 @@
 
 ## Final Assignment 1 ( AA Meeting Finder )
+
+**Link to the app:** http://3.85.39.185:8080
+
 This project aggregates weekly assignment [1](https://github.com/Xingwei726/data-structures/tree/master/week1), [2](https://github.com/Xingwei726/data-structures/tree/master/week2), [3](https://github.com/Xingwei726/data-structures/tree/master/week3), [4](https://github.com/Xingwei726/data-structures/tree/master/week4), [6](https://github.com/Xingwei726/data-structures/tree/master/week6), [7](https://github.com/Xingwei726/data-structures/tree/master/week7), [10](https://github.com/Xingwei726/data-structures/tree/master/week10), and [11](https://github.com/Xingwei726/data-structures/tree/master/week11). Meeting data was parsed, cleaned and stored in the PostgreSQL. Then I used [Mapbox](https://www.mapbox.com/) to display relevant meetings as map markers with popups that show all relevant information about the AA meeting in Manhattan.
 
 ## Working Process
